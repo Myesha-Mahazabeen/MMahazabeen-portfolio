@@ -1,5 +1,6 @@
 import github_icon from '../assets/github.png';
 import youtube_icon from '../assets/youtube.png';
+import linkedin_icon from "../assets/linkedin.png"
 
 const SocialMediaIcons = () => {
   return (
@@ -10,7 +11,7 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+        <img alt="linkedin-link" src={linkedin_icon} />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
