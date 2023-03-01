@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MMahazabeen-portfolio/static/css/main.3a2511da.css",
+    "main.js": "/MMahazabeen-portfolio/static/js/main.794a79ae.js",
+    "static/media/myesha.png": "/MMahazabeen-portfolio/static/media/myesha.4d3a0505c66bd2884723.png",
+    "static/media/Lasso.jpeg": "/MMahazabeen-portfolio/static/media/Lasso.a8002fdd7f23a0bc9571.jpeg",
+    "static/media/CCNY-ACM.jpeg": "/MMahazabeen-portfolio/static/media/CCNY-ACM.ed8250be32428bbb1506.jpeg",
+    "static/media/Foster-Care.jpeg": "/MMahazabeen-portfolio/static/media/Foster-Care.ffdcc91a8e4194fcd040.jpeg",
+    "static/media/person-3.png": "/MMahazabeen-portfolio/static/media/person-3.5dd0b714cfc8d2673b79.png",
+    "static/media/person-2.png": "/MMahazabeen-portfolio/static/media/person-2.6570129d3e8716b40235.png",
+    "static/media/person-1.png": "/MMahazabeen-portfolio/static/media/person-1.fb6c3796b42f9ad950c7.png",
+    "static/media/brush.png": "/MMahazabeen-portfolio/static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "index.html": "/MMahazabeen-portfolio/index.html",
+    "main.3a2511da.css.map": "/MMahazabeen-portfolio/static/css/main.3a2511da.css.map",
+    "main.794a79ae.js.map": "/MMahazabeen-portfolio/static/js/main.794a79ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a2511da.css",
+    "static/js/main.794a79ae.js"
+  ]
+}
