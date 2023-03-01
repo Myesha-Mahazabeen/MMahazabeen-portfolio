@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import Lasso_img from "../assets/Lasso.jpeg"
 import Foster_img from "../assets/Foster-Care.jpeg"
 import CCNY_img from "../assets/CCNY-ACM.jpeg"
+import Project_4 from "../assets/project-4.jpeg"
+import Project_5 from "../assets/project-5.jpeg"
 
 const container = {
   hidden: {},
@@ -60,9 +62,8 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          As a CS major, I am always learning new things. And I think the best way to learn is to practice. 
+          Here are some of my personal and academic projects showcasing UI designs of various websites.
         </p>
       </motion.div>
 
@@ -115,18 +116,36 @@ const Projects = () => {
             </div>
             <img src={CCNY_img} alt="CCNY ACM" />
           </motion.div>
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <motion.div variants={projectVariant} className="relative">
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-26 text-deep-blue">
+              <p className="text-2xl font-playfair">project 4</p>
+              <p className="mt-7">
+                coming soon
+              </p>
+            </div>
+            <img src={Project_4} alt="coming soon" />
+          </motion.div>
+          <motion.div variants={projectVariant} className="relative">
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-26 text-deep-blue">
+              <p className="text-2xl font-playfair">project 5</p>
+              <p className="mt-7">
+                coming soon
+              </p>
+            </div>
+            <img src={Project_5} alt="coming soon" />
+          </motion.div>
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
+          {/* <Project title="Project 6" />
           <Project title="Project 7" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section>

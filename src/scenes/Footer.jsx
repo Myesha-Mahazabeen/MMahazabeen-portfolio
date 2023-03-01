@@ -9,9 +9,9 @@ const Footer = () => {
           <p className="font-playfair font-semibold text-2xl text-yellow">
             MYESHA MAHAZABEEN
           </p>
-          <p className="font-playfair text-md text-yellow">
+          {/* <p className="font-playfair text-md text-yellow">
             ©2022 ESPER. All Rights Reserved.
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
