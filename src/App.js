@@ -54,6 +54,7 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
+      <p className="mt-5 mb-7 text-sm text-center md:text-start text-red"></p>
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full ">
         <motion.div

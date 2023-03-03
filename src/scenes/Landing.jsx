@@ -3,6 +3,8 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import profilePic from "../assets/myesha.png"
+import LineGradient from "../components/LineGradient";
+
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -23,6 +25,7 @@ const Landing = ({ setSelectedPage }) => {
               className="z-10 w-full max-w-[400px] md:max-w-[600px]"
               src={profilePic}
             />
+            
           </div>
         ) : (
           <img
@@ -30,7 +33,9 @@ const Landing = ({ setSelectedPage }) => {
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
             src={profilePic}
           />
+          
         )}
+        
       </div>
 
       {/* MAIN TEXT */}
@@ -55,8 +60,8 @@ const Landing = ({ setSelectedPage }) => {
               Mahazabeen
             {/* </span> */}
           </p>
-
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          <p className="mt-5 mb-7 text-sm text-center md:text-start text-red"><b>maisha.mahjabin27@gmail.com</b></p>
+          <p className="mt-5 mb-7 text-sm text-center md:text-start">
             Ambitious CS student with passion for UI/UX designing and attention to details
           </p>
         </motion.div>
@@ -104,9 +109,13 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <SocialMediaIcons />
+          
         </motion.div>
+        
       </div>
+      {/* <LineGradient /> */}
     </section>
+    // <LineGradient />
   );
 };
 
