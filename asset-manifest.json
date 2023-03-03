@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MMahazabeen-portfolio/static/css/main.27ab1ebc.css",
-    "main.js": "/MMahazabeen-portfolio/static/js/main.56276e07.js",
+    "main.css": "/MMahazabeen-portfolio/static/css/main.fcb11333.css",
+    "main.js": "/MMahazabeen-portfolio/static/js/main.10a6e68c.js",
     "static/media/myesha.png": "/MMahazabeen-portfolio/static/media/myesha.943697382791d5a004d4.png",
     "static/media/skills-image.png": "/MMahazabeen-portfolio/static/media/skills-image.51e40da64df180a7669a.png",
     "static/media/contact-image.jpeg": "/MMahazabeen-portfolio/static/media/contact-image.37fcb61b49d6aa5c40d3.jpeg",
@@ -16,11 +16,11 @@
     "static/media/brush.png": "/MMahazabeen-portfolio/static/media/brush.85c9bab5ba2d7dcae1e3.png",
     "index.html": "/MMahazabeen-portfolio/index.html",
     "static/media/menu-icon.svg": "/MMahazabeen-portfolio/static/media/menu-icon.e574f36b7d7842f3b97bc3c0c5f39ccc.svg",
-    "main.27ab1ebc.css.map": "/MMahazabeen-portfolio/static/css/main.27ab1ebc.css.map",
-    "main.56276e07.js.map": "/MMahazabeen-portfolio/static/js/main.56276e07.js.map"
+    "main.fcb11333.css.map": "/MMahazabeen-portfolio/static/css/main.fcb11333.css.map",
+    "main.10a6e68c.js.map": "/MMahazabeen-portfolio/static/js/main.10a6e68c.js.map"
   },
   "entrypoints": [
-    "static/css/main.27ab1ebc.css",
-    "static/js/main.56276e07.js"
+    "static/css/main.fcb11333.css",
+    "static/js/main.10a6e68c.js"
   ]
 }
