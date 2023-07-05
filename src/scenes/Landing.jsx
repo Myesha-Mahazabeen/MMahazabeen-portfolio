@@ -62,7 +62,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
           <p className="mt-5 mb-7 text-sm text-center md:text-start text-red"><b>maisha.mahjabin27@gmail.com</b></p>
           <p className="mt-5 mb-7 text-sm text-center md:text-start">
-            Ambitious CS student with passion for UI/UX designing and attention to details
+          Passionate about crafting digital solutions and pushing the boundaries of technology, I am an aspiring Software Engineer, Web developer & UX designer ready to make my mark in the world of technology
           </p>
         </motion.div>
 

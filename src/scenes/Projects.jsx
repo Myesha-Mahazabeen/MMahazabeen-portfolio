@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Lasso_img from "../assets/Lasso.jpeg"
 import Foster_img from "../assets/Foster-Care.jpeg"
 import CCNY_img from "../assets/CCNY-ACM.jpeg"
-import Project_4 from "../assets/project-4.jpeg"
+import Plantex_img from "../assets/Plantex.jpeg"
 import Project_5 from "../assets/project-5.jpeg"
 
 const container = {
@@ -62,8 +62,8 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          As a CS major, I am always learning new things. And I think the best way to learn is to practice. 
-          Here are some of my personal and academic projects showcasing UI designs of various websites.
+       
+        Embracing the artistry of programming, I approach each project as a canvas, blending logic and creativity to create elegant and efficient solutions. From crafting intuitive user interfaces to architecting robust backend systems, I am driven by a deep desire to bring ideas to life through lines of code. Here are some of my personal and academic projects showcasing user interfaces of various websites
         </p>
       </motion.div>
 
@@ -81,14 +81,14 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            BEAUTIFUL USER INTERFACES
+            Web & Mobile Applications
           </div>
           <motion.div variants={projectVariant} className="relative">
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-26 text-deep-blue">
               <p className="text-2xl font-playfair">Lasso</p>
               <p className="mt-7">
-                Lasso is a demo online marketplace like ebay. I designed this as a course work for Software Englineering course. The prototype was designed using Figma, and the frontend was developed using ReactJS
+                Lasso is an e-commerce website. Collaborated in a team to develop this website with bidding system advantage. The prototype was designed using Figma, the frontend was developed using ReactJS & the backend was developed using Back4app.
               </p>
             </div>
             <img src={Lasso_img} alt="Lasso" />
@@ -99,7 +99,7 @@ const Projects = () => {
     bg-grey z-30 flex flex-col justify-center items-center text-center p-26 text-deep-blue">
               <p className="text-2xl font-playfair">Foster Care</p>
               <p className="mt-7">
-                Foster Care is a website designed to work as an information hub to all the foster cares in the country. I designed the prototype using Figma.
+                Foster Care is a website designed to work as an information hub to all the foster cares in the country. Implemented HTML, CSS and JavaScrpit for the development and designed the prototype using Figma.
               </p>
             </div>
             <img src={Foster_img} alt="Foster Care" />
@@ -111,7 +111,7 @@ const Projects = () => {
     bg-grey z-30 flex flex-col justify-center items-center text-center p-26 text-deep-blue">
               <p className="text-2xl font-playfair">CCNY ACM Website</p>
               <p className="mt-7">
-                Designed the soon to be launched website of CCNY's CS club, ACM. It was designed using Figma and the design has been approved by the club
+                Designed the soon to be launched website of CCNY's CS club, ACM. Currently working on the frontend using React.
               </p>
             </div>
             <img src={CCNY_img} alt="CCNY ACM" />
@@ -119,12 +119,12 @@ const Projects = () => {
           <motion.div variants={projectVariant} className="relative">
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-26 text-deep-blue">
-              <p className="text-2xl font-playfair">project 4</p>
+              <p className="text-2xl font-playfair">Plantex</p>
               <p className="mt-7">
-                coming soon
+               Developed a responsive plant care web application using React with TypeScript & integrated API endpoints for plant information and care tips, while implementing a PostgreSQL database for search result storage, resulting in a robust and user-friendly application
               </p>
             </div>
-            <img src={Project_4} alt="coming soon" />
+            <img src={Plantex_img} alt="coming soon" />
           </motion.div>
           <motion.div variants={projectVariant} className="relative">
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500

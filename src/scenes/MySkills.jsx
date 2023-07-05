@@ -25,7 +25,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            As a CS major, I am always learning new things. Here are the skills I have gathered so far and places where I had to use those skills.
+            As a CS major, I am always learning new things. Here are the skills I have gathered so far and places where I had to use those skills
           </p>
         </motion.div>
 
@@ -71,9 +71,9 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            <b>Programming Languages:</b> C, C++, Python, Java, JavaScript, R<br></br>
-            <b>Web:</b> HTML, CSS<br></br>
-            <b>Softwares:</b> VS Code, Intellij, Photoshop, Illustrator, XCode<br></br>
+            <b>Programming Languages:</b> C, C++, Python, Java, JavaScript, SQL, R, Scheme<br></br>
+            <b>Web:</b> HTML, CSS, React, MongoDB, Node, Express<br></br>
+            <b>Softwares:</b> Google suite, Microsoft suite, VS Code, Intellij, QT, MYSQL, Adobe Photoshop, Adobe Illustrator, XCode<br></br>
             <b>Tools:</b> Figma, Canva, Github, Wix<br></br>
           </p>
         </motion.div>
@@ -126,10 +126,10 @@ const MySkills = () => {
           </div>
           <p className="mt-5">
             <b>IT intern</b><br></br>Center for Jewish History<br></br>
-            Data Entry and managing system database<br></br>
+            Utilized data analysis techniques to extract valuable insights, improving data-driven decision-making processes & ensured secure transfer of processed data to the system database.<br></br>
             {/* <br></br> */}
             <b>College Assistant</b><br></br>CCNY Office of Information and Technology<br></br>
-            Providing Technical support to the faculty and students, and maintaining official database.
+            Implemented streamlined IT support processes for software installations & hardware troubleshooting, resulting in improved user experience and satisfaction.
           </p>
         </motion.div>
       </div>
