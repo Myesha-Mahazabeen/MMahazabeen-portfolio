@@ -1,3 +1,4 @@
+import { useState } from "react";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
@@ -5,27 +6,28 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import profilePic from "../assets/myesha.png"
 import LineGradient from "../components/LineGradient";
 
-
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const [isCalendlyOpen, setCalendlyOpen] = useState(false);
+
+  const openCalendly = () => {
+    window.open("https://calendly.com/myeshamahazabeen/30min", "_blank");
+  };
+
   return (
     <section
       id="home"
-      className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
+      className="md:flex md:justify-between md:items-center gap-16 py-10"
     >
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
-          <div
-            // className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
-            // before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
-          >
+          <div>
             <img
               alt="profile"
               className="z-10 w-full max-w-[400px] md:max-w-[600px]"
               src={profilePic}
             />
-            
           </div>
         ) : (
           <img
@@ -33,9 +35,7 @@ const Landing = ({ setSelectedPage }) => {
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
             src={profilePic}
           />
-          
         )}
-        
       </div>
 
       {/* MAIN TEXT */}
@@ -53,16 +53,13 @@ const Landing = ({ setSelectedPage }) => {
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
             Myesha {""}
-            {/* <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
-            > */}
-              Mahazabeen
-            {/* </span> */}
+            Mahazabeen
           </p>
-          <p className="mt-5 mb-7 text-sm text-center md:text-start text-red"><b>maisha.mahjabin27@gmail.com</b></p>
+          <p className="mt-5 mb-7 text-sm text-center md:text-start text-red">
+            <b>maisha.mahjabin27@gmail.com</b>
+          </p>
           <p className="mt-5 mb-7 text-sm text-center md:text-start">
-          Passionate about crafting digital solutions and pushing the boundaries of technology, I am an aspiring Software Engineer, Web developer & UX designer ready to make my mark in the world of technology
+            Passionate about crafting digital solutions and pushing the boundaries of technology. I am an aspiring Software Engineer, Web developer & UX designer ready to make my mark in the world of technology
           </p>
         </motion.div>
 
@@ -86,15 +83,14 @@ const Landing = ({ setSelectedPage }) => {
           >
             Contact Me
           </AnchorLink>
-          <AnchorLink
+          <button
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+            onClick={openCalendly}
           >
             <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
               Let's talk.
             </div>
-          </AnchorLink>
+          </button>
         </motion.div>
 
         <motion.div
@@ -109,10 +105,30 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <SocialMediaIcons />
-          
         </motion.div>
         
       </div>
+
+      {/* Render Calendly modal if it's open */}
+      {isCalendlyOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black opacity-50" />
+          <iframe
+            className="z-50"
+            src="https://calendly.com/myeshamahazabeen/30min"
+            width="80%"
+            height="80%"
+            frameBorder="0"
+          />
+          <button
+            className="absolute top-5 right-5 z-50 px-3 py-1 bg-white border border-gray-300 rounded-md"
+            onClick={() => setCalendlyOpen(false)}
+          >
+            Close
+          </button>
+        </div>
+      )}
+      
       {/* <LineGradient /> */}
     </section>
     // <LineGradient />
