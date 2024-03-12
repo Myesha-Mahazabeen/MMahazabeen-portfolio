@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/MMahazabeen-portfolio/static/css/main.fcb11333.css",
-    "main.js": "/MMahazabeen-portfolio/static/js/main.8eaa5391.js",
+    "main.css": "/MMahazabeen-portfolio/static/css/main.492eef2e.css",
+    "main.js": "/MMahazabeen-portfolio/static/js/main.1dde87ee.js",
     "static/media/myesha.png": "/MMahazabeen-portfolio/static/media/myesha.943697382791d5a004d4.png",
-    "static/media/Plantex.jpeg": "/MMahazabeen-portfolio/static/media/Plantex.21cf52c46f63e13aba66.jpeg",
-    "static/media/skills-image.png": "/MMahazabeen-portfolio/static/media/skills-image.51e40da64df180a7669a.png",
+    "static/media/creatorverse.png": "/MMahazabeen-portfolio/static/media/creatorverse.31d23ed758b1d96ca5b5.png",
+    "static/media/spark.jpg": "/MMahazabeen-portfolio/static/media/spark.aad76ba3452b635f6342.jpg",
+    "static/media/inclusify.png": "/MMahazabeen-portfolio/static/media/inclusify.0abadc8b80283181bc10.png",
     "static/media/contact-image.jpeg": "/MMahazabeen-portfolio/static/media/contact-image.37fcb61b49d6aa5c40d3.jpeg",
     "static/media/Lasso.jpeg": "/MMahazabeen-portfolio/static/media/Lasso.a8002fdd7f23a0bc9571.jpeg",
+    "static/media/Plantex_cropped.jpeg": "/MMahazabeen-portfolio/static/media/Plantex_cropped.12fdbf5563f65e6cdd40.jpeg",
     "static/media/CCNY-ACM.jpeg": "/MMahazabeen-portfolio/static/media/CCNY-ACM.ed8250be32428bbb1506.jpeg",
-    "static/media/Foster-Care.jpeg": "/MMahazabeen-portfolio/static/media/Foster-Care.ffdcc91a8e4194fcd040.jpeg",
-    "static/media/project-5.jpeg": "/MMahazabeen-portfolio/static/media/project-5.0b26b0692e9a610483a4.jpeg",
+    "static/media/weather.jpg": "/MMahazabeen-portfolio/static/media/weather.77efaef6709944db570b.jpg",
+    "static/media/Untitled_design-removebg-preview.png": "/MMahazabeen-portfolio/static/media/Untitled_design-removebg-preview.6309f7afe7690a34f635.png",
     "static/media/person-3.png": "/MMahazabeen-portfolio/static/media/person-3.5dd0b714cfc8d2673b79.png",
     "static/media/person-2.png": "/MMahazabeen-portfolio/static/media/person-2.6570129d3e8716b40235.png",
     "static/media/person-1.png": "/MMahazabeen-portfolio/static/media/person-1.fb6c3796b42f9ad950c7.png",
-    "static/media/brush.png": "/MMahazabeen-portfolio/static/media/brush.85c9bab5ba2d7dcae1e3.png",
+    "static/media/mytodo.jpg": "/MMahazabeen-portfolio/static/media/mytodo.3f1bf6b1b80ee3166b86.jpg",
     "index.html": "/MMahazabeen-portfolio/index.html",
     "static/media/menu-icon.svg": "/MMahazabeen-portfolio/static/media/menu-icon.e574f36b7d7842f3b97bc3c0c5f39ccc.svg",
-    "main.fcb11333.css.map": "/MMahazabeen-portfolio/static/css/main.fcb11333.css.map",
-    "main.8eaa5391.js.map": "/MMahazabeen-portfolio/static/js/main.8eaa5391.js.map"
+    "main.492eef2e.css.map": "/MMahazabeen-portfolio/static/css/main.492eef2e.css.map",
+    "main.1dde87ee.js.map": "/MMahazabeen-portfolio/static/js/main.1dde87ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcb11333.css",
-    "static/js/main.8eaa5391.js"
+    "static/css/main.492eef2e.css",
+    "static/js/main.1dde87ee.js"
   ]
 }
